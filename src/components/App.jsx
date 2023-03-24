@@ -34,26 +34,3 @@ export const App = () => {
     </Routes>
   );
 };
-
-
-
-
-
-
-// export const App = () => {
-//     return (
-//     <Routes>
-//       <Route path='/' element={<Layout />}>
-//         <Route index element={<Home />} />
-//         <Route path="" element={<PublicRoute />}>
-//             <Route path='/register' element={<Register />} />
-//             <Route path='/login' element={<Login />} /> 
-//         </Route>
-//         <Route path="" element={<PrivateRoute />}>
-//           <Route path='/contacts' element={<Contacts />} />
-//         </Route>
-//       </Route>
-//       <Route path="*" element={<Home />} />
-//     </Routes>
-//   );
-// };
